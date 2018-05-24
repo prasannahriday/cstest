@@ -30,6 +30,7 @@ public class ShoppingApp {
 
     public static void main(String[] args) {
         List<String> items = Arrays.asList(args);
+        //used for testing purpose
         //List<String> items = Arrays.asList("Apple", "Banana", "Melon", "Melon", "Melon", "Lime");
         Config config = ConfigFactory.load();
 
